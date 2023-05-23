@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+.logo {
+    float: left;
+
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 80px 0;
+
+
+}
+
+.button-tryitfree {
+    border-radius: 40px;
+    padding: 16px 65px;
+    border: none;
+    box-shadow: 0px 1px 8px -1px #ccc;
+    font-size: 16px;
+    background-color: white;
+
+}
+
+.mockups {
+    float: right;
+    width: 52%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.title-texte-button {
+    font-family: 'Poppins', sans-serif;
+    padding-inline: 8rem;
+    position: relative;
+    right: 50px;
+    top: 10rem;
+    
+}
+
+.illustration-mockups {
+    margin-right: 5rem;
+}
+
+.texte1 {
+    padding-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.button-Getstartedforfree {
+    margin-top: 2.5rem;
+    border-radius: 40px;
+    padding: 20px 80px;
+    color: white;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-weight: bold;
+
+}
+
+header {
+    height: 100vh;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    margin-bottom: 10rem;
+    
+}
+.imag2 {
+    width: 80%;
+    height: auto;
+    float: left;
+}
+
+
+.imag1 ,.imag3{
+    width: 80%;
+    height: auto;
+    float: right;
+}
+
+
+section {
+    
+    box-shadow: 0px 1px 8px -1px #ccc;
+    border-radius: 15px;
+    max-width: 1233px;
+    margin: auto;
+    padding: 65px 37px 65px 80px;
+    margin-bottom: 35px;
+    
+}
+.col1{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+
+}
+.texte2 , .texte3 , .texte4{
+   font-family: 'Open Sans', sans-serif;
+   color: hsl(208, 11%, 55%);
+   margin-top: 25px;
+    
+}
+  
+h1 , h2 {
+ color:    hsl(192, 100%, 9%)
+}
+h2{
+    font-family: "Poppins", sans-serif;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.col3{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+
+}
+.col4{
+    margin: auto;
+    padding: 42px 60px;
+    max-width: 900px;
+    box-shadow: 0px 1px 8px -1px #ccc;
+    border-radius: 15px;
+    margin-top: 80px;
+   position: relative;
+    top: 100px;
+    background-color: white;
+}
+.col4-button{
+    padding: 30px 115px ;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: #ff52bf;
+    color: #fff;
+    box-shadow: 0px 1px 24px 6px #ccc;
+    margin-top: 30px;
+    
+    
+}
+.col-title-button{
+  margin-top: 50px;
+  text-align: center;
+  
+  
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 150px 0px 150px;
+    
+    
+    
+}
+.row-footer{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   
+ 
+  
+}
+.logo2{
+    filter: brightness(0) invert(1);
+    margin-bottom: 25px;
+}
+li{
+    list-style: none;
+    margin-bottom: 25px;
+    color: hsl(193, 100%, 96%);
+    font-family: "Open Sans", sans-serif;
+    padding-left: 20px;
+   
+    
+   
+}
+.phone{
+    list-style-image: url(./images/icon-phone.svg);
+}
+.email{
+    list-style-image: url(./images//icon-email.svg);
+}
+.location{
+    list-style-image: url(./images/icon-location.svg);
+}
+
+.icon-imgs{
+    filter: brightness(0)invert(1);
+    width: 30px;
+    height: auto;
+   
+}
+.contact-1-2{
+    display: flex;
+    
+   
+}
+.contact-1 , .contact-2{
+margin-left: 150px;
+width: 120px;
+}
+.copyright , .attribution{
+    color: hsl(193, 100%, 96%);
+    font-family: "Open Sans", sans-serif;
+   font-size: 11px;
+   white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+  
+
+}
+.social-icons{
+text-align: center;
+
+
+
+}
+.attribution{
+    position: relative;
+    top: 250px;
+    right: 500px;
+}
+.icon-imgs{
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+
+.copyright{
+    position: relative;
+    top: 180px;
+    left: 85px;
+}
+.contact-1 , .contact-2 , .icon-imgs{
+    margin-bottom: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+/* Styles for desktop (1440p) */
+@media (min-width: 1440px) {
+    /* Update styles for desktop here */
+    .mockups {
+        width: 52%;
+    }
+
+    .imag2,
+    .imag1,
+    .imag3 {
+        width: 80%;
+    }
+
+    section {
+        max-width: 1440px;
+        padding: 65px 80px;
+    }
+
+    .col4 {
+        max-width: 900px;
+        padding: 42px 60px;
+    }
+
+    footer {
+        padding: 0px 150px;
+    }
+}
+
+/* Styles for mobile (375px) */
+@media (max-width: 375px) {
+    /* Update styles for mobile here */
+    .mockups {
+        width: 100%;
+    }
+
+    .imag2,
+    .imag1,
+    .imag3 {
+        width: 100%;
+    }
+
+    section {
+        padding: 65px 20px;
+    }
+
+    .col4 {
+        padding: 42px 20px;
+    }
+
+    footer {
+        padding: 0px 20px;
+    }
+}
+
+/* Common styles for both desktop and mobile */
+.logo {
+    float: left;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 80px 0;
+}
+
+.button-tryitfree {
+    border-radius: 40px;
+    padding: 16px 65px;
+    border: none;
+    box-shadow: 0px 1px 8px -1px #ccc;
+    font-size: 16px;
+    background-color: white;
+}
+
+.title-texte-button {
+    font-family: 'Poppins', sans-serif;
+    padding-inline: 8rem;
+    position: relative;
+    right: 50px;
+    top: 10rem;
+}
+
+.illustration-mockups {
+    margin-right: 5rem;
+}
+
+.texte1 {
+    padding-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.button-Getstartedforfree {
+    margin-top: 2.5rem;
+    border-radius: 40px;
+    padding: 20px 80px;
+    color: white;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-weight: bold;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    margin-bottom: 10rem;
+}
+
+section {
+    box-shadow: 0px 1px 8px -1px #ccc;
+    border-radius: 15px;
+    margin: auto;
+    padding: 65px 37px 65px 80px;
+    margin-bottom: 35px
+}
